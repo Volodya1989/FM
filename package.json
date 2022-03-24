@@ -1,5 +1,5 @@
 {
-  "name": "fsf-ft-11-MERN-starter",
+  "name": "FM",
   "version": "1.0.0",
   "description": "## Basic Server Setup 1. `touch server.js` 2. `npm init -y` 3. `npm install express mongoose`",
   "main": "server.js",
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jonathanjwatson/fsf-ft-11-MERN-starter.git"
+    "url": "git+https://github.com/volodymyrpetrytsya/FM.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jonathanjwatson/fsf-ft-11-MERN-starter/issues"
+    "url": "https://github.com/volodymyrpetrytsya/FM/issues"
   },
-  "homepage": "https://github.com/jonathanjwatson/fsf-ft-11-MERN-starter#readme",
+  "homepage": "https://github.com/volodymyrpetrytsya/FM#readme",
   "dependencies": {
     "express": "^4.17.1",
     "if-env": "^1.0.4",
