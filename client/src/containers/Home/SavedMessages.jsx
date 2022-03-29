@@ -17,8 +17,8 @@ class Home extends Component {
   </Navbar.Collapse>
 </Navbar>
 
-<h1>Hello all! This is home page of Family Planner App:) </h1>
-<h2>There are still a lot of work to be done...</h2>
+<h1>WELCOME!! SAVED MESSAGES PAGE </h1>
+
 
             </div>
         );
