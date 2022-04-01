@@ -1,6 +1,6 @@
 const router = require("express").Router();
-const restaurantRoutes = require("./restaurants");
+const notesRoutes = require("./notes");
 
-router.use("/restaurants", restaurantRoutes);
+router.use("/notes", notesRoutes);
 
 module.exports = router;

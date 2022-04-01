@@ -3,10 +3,10 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const restaurantSchema = new Schema({
-  name: {
-    type: String,
+  notes: {
+    type: Array,
     trim: true,
-    required: "Enter a restaurant name.",
+    // required: "Enter a restaurant name.",
   },
   address: {
     type: String,
@@ -25,3 +25,5 @@ const restaurantSchema = new Schema({
 const Restaurant = mongoose.model("Restaurant", restaurantSchema);
 
 module.exports = Restaurant;
+
+

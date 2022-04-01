@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.static("client/build"));
 
 mongoose
-  .connect(process.env.MONGODB_URI || "mongodb://localhost/Restaurant", {
+  .connect(process.env.MONGODB_URI || "mongodb://localhost/Notes", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
