@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import Notes from "../../components/TextArea/Notes";
+import Notes from '../../components/TextArea/Notes'
 
 class Home extends Component {
   render() {
@@ -19,7 +19,6 @@ class Home extends Component {
         </Navbar>
         <Notes />
         <h1>Hello all! This is home page of Family Planner App:) </h1>
-        <h2>There are still a lot of work to be done...</h2>
       </div>
     );
   }
