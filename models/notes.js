@@ -2,28 +2,22 @@ const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 
-const restaurantSchema = new Schema({
+const notesSchema = new Schema({
   notes: {
     type: Array,
     trim: true,
-    // required: "Enter a restaurant name.",
+    // required: "Enter a notes name.",
   },
-  address: {
+  item: {
     type: String,
     trim: true,
   },
-  phone: {
-    type: String,
-    trim: true,
-  },
-  cuisine: {
+  day: {
     type: String,
     trim: true,
   },
 });
 
-const Restaurant = mongoose.model("Restaurant", restaurantSchema);
+const Notes = mongoose.model("Notes", notesSchema);
 
-module.exports = Restaurant;
-
-
+module.exports = Notes;

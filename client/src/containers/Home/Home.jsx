@@ -4,6 +4,8 @@ import Nav from "react-bootstrap/Nav";
 import Notes from '../../components/TextArea/Notes'
 
 class Home extends Component {
+
+  
   render() {
     return (
       <div>
@@ -18,7 +20,6 @@ class Home extends Component {
           </Navbar.Collapse>
         </Navbar>
         <Notes />
-        <h1>Hello all! This is home page of Family Planner App:) </h1>
       </div>
     );
   }
